@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@1,100&display=swap');
+*{
+    padding: 0px;
+    margin: 0%;
+}
+body{
+    background: url("london.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    /* border: 2px solid purple; */
+    position: absolute;
+    top: 30%;
+    left: 40%;
+
+}
+.container h1{
+    color: aliceblue;
+    font-size: 40px;
+    margin-bottom: 27px;
+    padding: 13px 0;
+    border-bottom: 5px solid purple;
+    display: inline-block;
+    font-family: 'Heebo', sans-serif;
+
+}
+.box{
+    width: 100%;
+    /* border: 2px solid purple; */
+    color: white;
+    border-bottom: 3px solid purple;
+}
+
+
+.box input{
+    font-family: 'Ysabeau Office', sans-serif;
+    width: 75%;
+    margin: 8px 0px;
+    font-size: 20px;
+    padding: 5px 10px;
+    background: none;
+    outline: none;
+    border: none;
+}
+.btn{
+    cursor: pointer;
+    margin: 2px 23px;
+    border-radius: 6px;
+    width: 25%;
+    margin: 12px 0px;
+    padding: 6px;
+    /* border-color: blueviolet; */
+}
+.box i{
+    width: 14%;
+    text-align: center;
+}
